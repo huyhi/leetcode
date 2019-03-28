@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca115730-116d-48b0-b8be-76fed69b35b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/Util/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_122BestTimeToBuyAndSell/Soultion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_14/LongestCommonPrefix/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_300LongestIncrSubseq/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_206ReverseLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_206ReverseLinkedList/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_34FirstAndLastPInSortedArr/SolutionFromLeet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_34FirstAndLastPInSortedArr/SolutionFromLeet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,12 +28,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="479">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sort/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -121,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/_34FirstAndLastPInSortedArr/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_34FirstAndLastPInSortedArr/SolutionFromLeet.java" />
         <option value="$PROJECT_DIR$/src/com/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_300LongestIncrSubseq/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/Util/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" />
@@ -129,13 +127,15 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/index.md" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_14/LongestCommonPrefix/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/sort/HeapSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="952" />
+    <option name="y" value="23" />
+    <option name="width" value="968" />
+    <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,19 +180,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552816662735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553795221745" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -321,17 +321,18 @@
       <workItem from="1551152220209" duration="1703000" />
       <workItem from="1552747628849" duration="4187000" />
       <workItem from="1552796142443" duration="15365000" />
+      <workItem from="1553769459535" duration="10037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107455000" />
+    <option name="totallyTimeSpent" value="117492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="952" y="23" width="968" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18161926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19870411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -629,7 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sort/HeapSort.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="984">
@@ -684,8 +684,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="479">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
         </state>
       </provider>
     </entry>
