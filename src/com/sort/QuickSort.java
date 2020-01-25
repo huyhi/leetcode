@@ -13,6 +13,7 @@ public class QuickSort {
     }
 
     public static int partition(int[] a, int p, int r) {
+        // 分区点，默认选择最右侧这个元素作为分区点，吧数组分为 比分区点小 分区点 大于分区点三部分
         int pivot = a[r];
         int i = p;
 
