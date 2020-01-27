@@ -2,34 +2,30 @@ package com.leetcode._557revWordInStrIII;
 
 public class Solution {
 
-    public static void revWordInStr(char[] raw) {
-        rev(raw, 0, raw.length - 1);
+    public static String reverseWords(String s) {
+        char[] sArr = s.toCharArray();
+        boolean startFlag = true;
         int start = 0, end = 0;
-        boolean startFlag = true, endFlag = true;
 
-        for (int i = 0; i < raw.length; ++i) {
-            if (raw[i] != ' ' && startFlag) {
-                start = i;
+        for (int i = 0; i < s.length(); ++i) {
+            if (sArr[i] != ' ' && startFlag) {
                 startFlag = false;
+                start = i;
             }
-            if (raw[i] == ' ') {
-                end = i;
-                endFlag = false;
-                rev(raw, start, end - 1);
+            if (sArr[i] == ' ') {
+                end = i - 1;
                 startFlag = true;
-                endFlag = true;
+                rev(sArr, start, end);
             }
         }
+        rev(sArr, start, s.length() - 1);
 
-        if (endFlag) {
-            rev(raw, start, raw.length - 1);
-        }
+        return new String(sArr);
     }
 
     public static void main(String[] args) {
-        char[] a = "hello world i love you".toCharArray();
-        revWordInStr(a);
-        printCharArr(a);
+        String s = "hello world i love you";
+        System.out.println(reverseWords(s));
     }
 
     public static void rev(char[] a, int l, int h) {
@@ -38,12 +34,5 @@ public class Solution {
             a[l++] = a[h];
             a[h--] = tmp;
         }
-    }
-
-    public static void printCharArr(char[] a) {
-        for (char i : a) {
-            System.out.print(i);
-        }
-        System.out.println();
     }
 }
