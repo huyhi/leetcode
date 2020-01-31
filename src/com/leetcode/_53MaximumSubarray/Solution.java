@@ -3,7 +3,7 @@ package com.leetcode._53MaximumSubarray;
 
 public class Solution {
 
-    public int maxSubArray(int[] nums) {
+    public static int maxSubArray(int[] nums) {
         if (nums.length == 0) {
             return 0;
         }
@@ -19,20 +19,8 @@ public class Solution {
         return maximum;
     }
 
-
-    public int minSubArray(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
-
-        int minimum = nums[0];
-        int sum = 0;
-
-        for (int item : nums) {
-            sum = Math.min(item + sum, item);
-            minimum = Math.min(minimum, sum);
-        }
-
-        return minimum;
+    public static void main(String[] args) {
+        int[] a = new int[]{-1, -2, -3};
+        System.out.println(maxSubArray(a));
     }
 }
