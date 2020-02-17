@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca115730-116d-48b0-b8be-76fed69b35b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_113pahSumII/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_985CheckCompletenessOfBinTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_110IsBalanceBinTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_113pathSumII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_695MaxAreaOfIsland/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +31,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/_113pahSumII/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="805">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -99,11 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/_14/LongestCommonPrefix/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/sort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_3LongestSubStrWithoutSameChar/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_581shortestUnsortedSubSeq/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_350intersectionOfTwoArrs/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_350intersectionOfTwoArrsII/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_7reverseInteger/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_7revInt/Solution.java" />
@@ -150,13 +141,17 @@
         <option value="$PROJECT_DIR$/src/com/test/monster.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_985CheckCompletenessOfBinTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_113pahSumII/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_113pathSumII/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_110IsBalanceBinTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_695MaxAreaOfIsland/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution2.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="739" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,12 +186,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="_5LongestPalindromicSubstr" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +207,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581691179057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581939764536" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -224,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLargest">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._703KthLargestEleInArray.KthLargest" />
       <module name="leetcode" />
@@ -251,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode._557revWordInStrIII.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode._53MaximumSubarray.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode._557revWordInStrIII.*" />
+          <option name="PATTERN" value="com.leetcode._53MaximumSubarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode._53MaximumSubarray.Solution" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode._5LongestPalindromicSubstr.Solution2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode._53MaximumSubarray.*" />
+          <option name="PATTERN" value="com.leetcode._5LongestPalindromicSubstr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,18 +295,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.SolutionHeapSort" />
       <item itemvalue="Application.KthLargest" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.KthLargest" />
         <item itemvalue="Application.SolutionHeapSort" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,18 +366,19 @@
       <workItem from="1581131873932" duration="5348000" />
       <workItem from="1581211768218" duration="15420000" />
       <workItem from="1581426644574" duration="11100000" />
-      <workItem from="1581683602152" duration="2931000" />
+      <workItem from="1581683602152" duration="8983000" />
+      <workItem from="1581828079300" duration="11223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230742000" />
+    <option name="totallyTimeSpent" value="248017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="739" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.10338346" visible="true" weight="0.20436187" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.10338346" visible="true" weight="0.20759289" />
       <window_info id="Structure" order="1" sideWeight="0.8966165" side_tool="true" weight="0.24474959" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41316527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34313726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35154063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +395,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12995246" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24509804" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -413,39 +417,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_783MinDistanceInBST/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="504" column="24" selection-start-line="504" selection-start-column="24" selection-end-line="504" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_347TopKFrequentElement/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Util/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/_108SortedArrToBST/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -744,13 +715,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_113pahSumII/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_113pahSumII/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_113pathSumII/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-139">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_695MaxAreaOfIsland/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_110IsBalanceBinTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_5LongestPalindromicSubstr/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
