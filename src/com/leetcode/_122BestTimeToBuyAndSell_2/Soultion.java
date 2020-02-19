@@ -1,4 +1,4 @@
-package com.leetcode._122BestTimeToBuyAndSell;
+package com.leetcode._122BestTimeToBuyAndSell_2;
 
 public class Soultion {
 
