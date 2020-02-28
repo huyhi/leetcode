@@ -1,6 +1,6 @@
 package com.leetcode._235LowestCommonAncestorOfBST;
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 public class Solution {
 

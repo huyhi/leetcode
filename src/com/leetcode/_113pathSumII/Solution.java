@@ -1,7 +1,7 @@
 package com.leetcode._113pathSumII;
 
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

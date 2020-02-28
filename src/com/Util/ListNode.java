@@ -1,4 +1,4 @@
-package com.leetcode.Util;
+package com.Util;
 
 public class ListNode {
     public int val;
@@ -8,3 +8,4 @@ public class ListNode {
         this.val = val;
     }
 }
+

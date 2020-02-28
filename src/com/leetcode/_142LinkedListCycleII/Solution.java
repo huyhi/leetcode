@@ -1,6 +1,6 @@
 package com.leetcode._142LinkedListCycleII;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
 
 import java.util.HashSet;
 

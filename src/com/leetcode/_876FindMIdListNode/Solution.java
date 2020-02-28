@@ -1,6 +1,6 @@
 package com.leetcode._876FindMIdListNode;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
 
 public class Solution {
 

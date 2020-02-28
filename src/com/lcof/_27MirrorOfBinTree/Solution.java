@@ -1,6 +1,6 @@
 package com.lcof._27MirrorOfBinTree;
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 public class Solution {
 

@@ -1,6 +1,6 @@
 package com.leetcode._783MinDistanceInBST;
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 public class Solution {
     Integer pre = null;

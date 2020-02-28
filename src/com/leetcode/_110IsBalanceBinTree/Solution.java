@@ -1,7 +1,7 @@
 package com.leetcode._110IsBalanceBinTree;
 
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 public class Solution {
 

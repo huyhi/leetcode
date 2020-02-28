@@ -1,6 +1,6 @@
 package com.leetcode._160IntersectionOfTwoLinkedList;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

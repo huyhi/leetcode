@@ -1,7 +1,6 @@
 package com.leetcode._107TreeLevelOrderII;
 
-import com.leetcode.Util.TreeNode;
-import com.sun.source.tree.Tree;
+import com.Util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

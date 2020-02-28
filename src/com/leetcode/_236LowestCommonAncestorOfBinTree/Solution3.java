@@ -1,7 +1,7 @@
 package com.leetcode._236LowestCommonAncestorOfBinTree;
 
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 import java.util.Stack;
 

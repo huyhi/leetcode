@@ -1,31 +1,29 @@
 package com.lcof;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
+import com.Util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Test {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        TreeNode bigNode = p.val > q.val ? p : q,
+                smallNode = p.val < q.val ? p : q;
 
-    List<Integer> res = new ArrayList<>();
-
-    public int[] reversePrint(ListNode head) {
-        reverse(head);
-        int[] resArr = new int[res.size()];
-        int i = 0;
-        for (int item : res) {
-            resArr[i++] = item;
+        if (root == null) {
+            return root;
+        }
+        if (root.val <= bigNode.val && root.val >= smallNode.val) {
+            return root;
+        }
+        if (root.val > bigNode.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        }
+        if (root.val < smallNode.val) {
+            return lowestCommonAncestor(root.right, p, q);
         }
 
-        return resArr;
-    }
-
-    void reverse(ListNode h) {
-        if (h == null) {
-            return;
-        } else {
-            reverse(h.next);
-            res.add(h.val);
-        }
+        return null;
     }
 }

@@ -1,7 +1,6 @@
 package com.leetcode._985CheckCompletenessOfBinTree;
 
-import com.leetcode.Util.TreeNode;
-import com.sun.source.tree.Tree;
+import com.Util.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

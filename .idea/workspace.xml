@@ -2,14 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca115730-116d-48b0-b8be-76fed69b35b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_22KthFromEnd/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_25MergeSortedLinkedList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_27MirrorOfBinTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lcof/_5ReplaceWhiteSpace/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Util/DoubleLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lcof/_15hanmingWeight/Soultion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lcof/_62JosephProblem/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lcof/_9QueueByTwoStacks/CQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/others/JosephProblems/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_22KthFromEnd/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_22KthFromEnd/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_24RevLinkList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_24RevLinkList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_25MergeSortedLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_25MergeSortedLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_27MirrorOfBinTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_27MirrorOfBinTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_30StackWithMin/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/_30StackWithMin/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Util/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Util/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_101SymmetricTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_101SymmetricTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_104DepthOfBinTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_104DepthOfBinTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_105ConstructBinaryTreeFromPreorderAndInorder/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_105ConstructBinaryTreeFromPreorderAndInorder/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_107TreeLevelOrderII/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_107TreeLevelOrderII/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_108SortedArrToBST/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_108SortedArrToBST/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_110IsBalanceBinTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_110IsBalanceBinTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_113pathSumII/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_113pathSumII/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_141LinkedListCycle/Soultion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_141LinkedListCycle/Soultion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_142LinkedListCycleII/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_142LinkedListCycleII/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_148SortLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_148SortLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_160IntersectionOfTwoLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_160IntersectionOfTwoLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_206ReverseLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_206ReverseLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_234PalindromeLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_234PalindromeLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_235LowestCommonAncestorOfBST/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_235LowestCommonAncestorOfBST/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_328OddEvenLinkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_328OddEvenLinkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_445AddTwoNumbersII/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_445AddTwoNumbersII/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_653TwoSumIVInputBST/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_653TwoSumIVInputBST/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_783MinDistanceInBST/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_783MinDistanceInBST/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_876FindMIdListNode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_876FindMIdListNode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_897IncreasingOrderBST/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_897IncreasingOrderBST/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_92ReverseLinkedListii/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_92ReverseLinkedListii/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_94BinTreeInOrderTraversal/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_94BinTreeInOrderTraversal/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_985CheckCompletenessOfBinTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_985CheckCompletenessOfBinTree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/sort/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/sort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/_22KthFromEnd/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/_22KthFromEnd/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/_25MergeSortedLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/_25MergeSortedLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/_27MirrorOfBinTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/_27MirrorOfBinTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Util/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Util/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_101SymmetricTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_101SymmetricTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_104DepthOfBinTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_104DepthOfBinTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_105ConstructBinaryTreeFromPreorderAndInorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_105ConstructBinaryTreeFromPreorderAndInorder/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_107TreeLevelOrderII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_107TreeLevelOrderII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_108SortedArrToBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_108SortedArrToBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_110IsBalanceBinTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_110IsBalanceBinTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_113pathSumII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_113pathSumII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_141LinkedListCycle/Soultion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_141LinkedListCycle/Soultion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_142LinkedListCycleII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_142LinkedListCycleII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_148SortLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_148SortLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_160IntersectionOfTwoLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_160IntersectionOfTwoLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_206ReverseLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_206ReverseLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_234PalindromeLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_234PalindromeLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_236LowestCommonAncestorOfBinTree/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_328OddEvenLinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_328OddEvenLinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_34FirstAndLastPInSortedArr/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_34FirstAndLastPInSortedArr/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_445AddTwoNumbersII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_445AddTwoNumbersII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_653TwoSumIVInputBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_653TwoSumIVInputBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_783MinDistanceInBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_783MinDistanceInBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_876FindMIdListNode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_876FindMIdListNode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_897IncreasingOrderBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_897IncreasingOrderBST/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_92ReverseLinkedListii/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_92ReverseLinkedListii/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_94BinTreeInOrderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_94BinTreeInOrderTraversal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_985CheckCompletenessOfBinTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_985CheckCompletenessOfBinTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sort/QuickSort.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +112,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,15 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/_347TopKFrequentElement/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Util/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_108SortedArrToBST/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_283MoveZeros/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_53MaximumSubarray/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_101SymmetricTree/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_190ReverseBits/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_200DaoYuShuLiang/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/_128LongestConsecutiveSeq/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_309bestTimeToBuyAndSell/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_746minCostUpstaire/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/sort/MergeSort.java" />
@@ -146,10 +206,19 @@
         <option value="$PROJECT_DIR$/src/com/lcof/_27MirrorOfBinTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_5ReplaceWhiteSpace/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_22KthFromEnd/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/lcof/Test.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_25MergeSortedLinkedList/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/_40KMinNumsInArray/Soultion.java" />
+        <option value="$PROJECT_DIR$/src/com/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/com/Util/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/Util/DoubleLinkNode.java" />
+        <option value="$PROJECT_DIR$/src/com/others/JosephProblems/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/_9QueueByTwoStacks/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/_9QueueByTwoStacks/CQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/_15hanmingWeight/Soultion.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/_62JosephProblem/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/lcof/Test.java" />
       </list>
     </option>
   </component>
@@ -163,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,12 +263,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lcof" type="462c0819:PsiDirectoryNode" />
-              <item name="_30StackWithMin" type="462c0819:PsiDirectoryNode" />
+              <item name="_62JosephProblem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="_235LowestCommonAncestorOfBST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -211,7 +302,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582511484440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582851079702" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,26 +322,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStack">
+  <component name="RunManager" selected="Application.Soultion">
     <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._703KthLargestEleInArray.KthLargest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode._703KthLargestEleInArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Main" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,6 +349,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.others.JosephProblems.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.others.JosephProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._5LongestPalindromicSubstr.Solution2" />
       <module name="leetcode" />
@@ -284,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionHeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode._215kthLargestEleInnArray.SolutionHeapSort" />
+    <configuration name="Soultion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lcof._15hanmingWeight.Soultion" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode._215kthLargestEleInnArray.*" />
+          <option name="PATTERN" value="com.lcof._15hanmingWeight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SolutionHeapSort" />
       <item itemvalue="Application.KthLargest" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.MinStack" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Soultion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Soultion" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.KthLargest" />
-        <item itemvalue="Application.SolutionHeapSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -376,17 +467,18 @@
       <workItem from="1582176214741" duration="357000" />
       <workItem from="1582250073365" duration="106000" />
       <workItem from="1582273645283" duration="480000" />
-      <workItem from="1582425812268" duration="5989000" />
+      <workItem from="1582425812268" duration="9775000" />
+      <workItem from="1582775178880" duration="8261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265278000" />
+    <option name="totallyTimeSpent" value="277325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.10338346" visible="true" weight="0.22374798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.10338346" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" sideWeight="0.8966165" side_tool="true" weight="0.24474959" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34313726" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32633054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35154063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,72 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/CharacterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_876FindMIdListNode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_148SortLinkedList/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_897IncreasingOrderBST/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_105ConstructBinaryTreeFromPreorderAndInorder/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -593,13 +619,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -717,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcof/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -762,10 +771,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/_40KMinNumsInArray/Soultion.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Util/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Util/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/others/JosephProblems/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Util/DoubleLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/_9QueueByTwoStacks/CQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/_15hanmingWeight/Soultion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_235LowestCommonAncestorOfBST/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcof/_62JosephProblem/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>

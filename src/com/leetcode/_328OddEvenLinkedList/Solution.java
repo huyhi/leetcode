@@ -1,8 +1,6 @@
 package com.leetcode._328OddEvenLinkedList;
 
-import com.leetcode.Util.ListNode;
-
-import java.util.LinkedList;
+import com.Util.ListNode;
 
 public class Solution {
 

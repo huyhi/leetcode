@@ -1,7 +1,6 @@
 package com.leetcode._94BinTreeInOrderTraversal;
 
-import com.leetcode.Util.ListNode;
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

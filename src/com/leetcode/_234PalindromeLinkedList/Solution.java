@@ -1,6 +1,6 @@
 package com.leetcode._234PalindromeLinkedList;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
 
 public class Solution {
 

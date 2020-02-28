@@ -1,9 +1,7 @@
 package com.leetcode._148SortLinkedList;
 
 // 排序一个单链表，使用归并排序的思想。
-import com.leetcode.Util.ListNode;
-
-import java.util.LinkedList;
+import com.Util.ListNode;
 
 
 public class Solution {

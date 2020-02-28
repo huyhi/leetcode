@@ -4,7 +4,7 @@
 //import java.util.ArrayList;
 //import java.util.List;
 //
-//public class Solution {
+//public class CQueue {
 //
 //    public static int[] searchRange(int[] arr, int target) {
 //        int len = arr.length,

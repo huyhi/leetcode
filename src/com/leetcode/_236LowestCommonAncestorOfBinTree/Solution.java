@@ -1,6 +1,6 @@
 package com.leetcode._236LowestCommonAncestorOfBinTree;
 
-import com.leetcode.Util.TreeNode;
+import com.Util.TreeNode;
 
 // leetcode 解法1
 public class Solution {

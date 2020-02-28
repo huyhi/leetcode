@@ -1,6 +1,6 @@
 package com.lcof._24RevLinkList;
 
-import com.leetcode.Util.ListNode;
+import com.Util.ListNode;
 
 public class Solution {
 
