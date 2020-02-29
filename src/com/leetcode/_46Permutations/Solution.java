@@ -5,28 +5,42 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+// leetcode 官方解法，基于Swap的回溯算法
 public class Solution {
 
-    public void backtrack(int n, List<Integer> nums, List<List<Integer>> output, int first) {
-        if (first == n) {
-            output.add(new ArrayList<>(nums));
+    List<List<Integer>> res = new ArrayList<>();
+
+    public List<List<Integer>> permute(int[] nums) {
+        int len = nums.length;
+        if (len == 0) {
+            return res;
         }
-        for (int i = first; i < n; ++i) {
-            Collections.swap(nums, first, i);
-            backtrack(n, nums, output, first + 1);
-            // 回溯
-            Collections.swap(nums, first, i);
+
+        List<Integer> numList = new ArrayList<>();
+        for (int item : nums) {
+            numList.add(item);
+        }
+
+        dfs(0, len, numList);
+        return res;
+    }
+
+    public void dfs(int level, int len, List<Integer> numList) {
+        if (level == len) {
+            res.add(new ArrayList<>(numList));
+        }
+
+        for (int i = level; i < len; ++i) {
+            Collections.swap(numList, i, level);
+            dfs(level + 1, len, numList);
+            Collections.swap(numList, i, level);
         }
     }
 
-    public List<List<Integer>> permutation(int[] nums) {
-        List<List<Integer>> output = new ArrayList<>();
-        List<Integer> numsList = new ArrayList<>();
-        for (int item : nums) {
-            numsList.add(item);
-        }
-        int n = nums.length;
-        backtrack(n, numsList, output, 0);
-        return output;
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3};
+        List<List<Integer>> res = new Solution().permute(nums);
+
+        System.out.println(res);
     }
 }
