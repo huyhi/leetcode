@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca115730-116d-48b0-b8be-76fed69b35b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_1013_CanThreePartsEqualSum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_1143_LCS/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_162_FindPeakElement/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_543_DiameterOfBinaryTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_64_MinPathSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_415_AddString/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/_673_FindNumberOfLIS/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/_703_KthLargest/KthLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/Util/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/Util/Tools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/lcof/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/lcof/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_16_3SumClosest/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_16_3SumClosest/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_215kthLargestEleInnArray/SolutionHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_215kthLargestEleInnArray/SolutionHeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_300LongestIncrSubseq/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_300LongestIncrSubseq/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Util/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Util/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lcof/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lcof/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_215kthLargestEleInnArray/SolutionHeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_215kthLargestEleInnArray/SolutionHeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/_300LongestIncrSubseq/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/_300LongestIncrSubseq/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_43multiplyStrings/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/_673_FindNumberOfLIS/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,15 +32,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/_673_FindNumberOfLIS/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="338">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,9 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lcof/_27MirrorOfBinTree/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/lcof/_5ReplaceWhiteSpace/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/lcof/_22KthFromEnd/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_24RevLinkList/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_25MergeSortedLinkedList/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/lcof/_30StackWithMin/MinStack.java" />
@@ -172,15 +156,16 @@
         <option value="$PROJECT_DIR$/src/com/lcof/Test.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_703_KthLargest/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_703_KthLargest/KthLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_415_AddString/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/_43multiplyStrings/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/_673_FindNumberOfLIS/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="35" />
-    <option name="y" value="23" />
-    <option name="width" value="1245" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,6 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +206,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="_43multiplyStrings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="_215kthLargestEleInnArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,30 +229,12 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="_673_FindNumberOfLIS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="_703_KthLargest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,13 +244,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584092949863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584161004079" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._703_KthLargest.KthLargest" />
       <module name="leetcode" />
@@ -301,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode._1143_LCS.Solution" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.Main" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode._1143_LCS.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode._162_FindPeakElement.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode._415_AddString.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode._162_FindPeakElement.*" />
+          <option name="PATTERN" value="com.leetcode._415_AddString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,19 +331,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.SolutionHeapSort" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.KthLargest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.KthLargest" />
         <item itemvalue="Application.SolutionHeapSort" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -438,19 +415,19 @@
       <workItem from="1583287561724" duration="19409000" />
       <workItem from="1583639964827" duration="88000" />
       <workItem from="1583661064328" duration="6008000" />
-      <workItem from="1583805402306" duration="18724000" />
+      <workItem from="1583805402306" duration="24964000" />
+      <workItem from="1584183096832" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345897000" />
+    <option name="totallyTimeSpent" value="352180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1022409" visible="true" weight="0.21324718" />
-      <window_info id="Structure" order="1" sideWeight="0.8977591" side_tool="true" weight="0.23021002" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.11578947" visible="true" weight="0.21647818" />
+      <window_info id="Structure" order="1" sideWeight="0.8842105" side_tool="true" weight="0.21324718" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -458,7 +435,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3347339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3347339" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39635855" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,7 +443,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24929972" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24929972" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -519,38 +496,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lcof/_40KMinNumsInArray/Soultion.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sort/HeapSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Util/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Util/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/others/JosephProblems/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Util/DoubleLinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -930,13 +875,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="532" column="33" selection-start-line="532" selection-start-column="33" selection-end-line="532" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_415_AddString/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/_43multiplyStrings/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/_673_FindNumberOfLIS/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
