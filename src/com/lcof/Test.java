@@ -4,8 +4,7 @@ import com.Util.TreeNode;
 
 public class Test {
 
-    public int gcd(int a, int b) {
+    public static void main(String[] args) {
 
-        return 0;
     }
 }
