@@ -1,11 +1,21 @@
-package com.lcof;
+package com.leetcode._78Subsets;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class Test {
+public class Solution2 {
+    // 递归树
+    /*
+        []
+        /\
+      []  [1]
+      /\    / \
+    [] [2] [1] [1,2]
+    ...
+    ...
+     */
     List<List<Integer>> res = new ArrayList<>();
 
     public List<List<Integer>> subsets(int[] nums) {

@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Solution {
 
+    // leetcode 官方解法，应该不是回溯的思想，很难理解
+    // 回溯思路见 Solution2 和 Solution3
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         res.add(new ArrayList<>());
