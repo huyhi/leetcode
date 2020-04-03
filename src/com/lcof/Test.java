@@ -1,33 +1,24 @@
 package com.lcof;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import com.Util.TreeNode;
 
 public class Test {
-    List<List<Integer>> res = new ArrayList<>();
 
-    public List<List<Integer>> subsets(int[] nums) {
-        int len = nums.length;
-        if (len == 0) {
-            return res;
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) {
+            return true;
         }
-
-        dfs(new ArrayDeque<>(), nums, 0, len);
-        return res;
+        if (root.left == null || root.right == null) {
+            return root.left == root.right;
+        }
+        return helper(root.left, root.right);
     }
 
-    public void dfs(Deque<Integer> path, int[] nums, int depth, int len) {
-        if (depth == len) {
-            res.add(new ArrayList<>(path));
-            return;
+    public boolean helper(TreeNode left, TreeNode right) {
+        if (left == null || right == null) {
+            return left == right;
         }
-
-        dfs(path, nums, depth + 1, len);
-
-        path.add(nums[depth]);
-        dfs(path, nums, depth + 1, len);
-        path.removeLast();
+        return left.val == right.val &&
+                helper(left.left, right.right) && helper(left.right, right.left);
     }
 }
