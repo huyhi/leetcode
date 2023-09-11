@@ -2,6 +2,12 @@ package cn.leetcode;
 
 public class DebugTool {
 
+    public static void printArr(int[] nums) {
+        for (int num : nums) {
+            System.out.printf("%d, ", num);
+        }
+    }
+
     public static void print2DimArray(boolean[][] arr) {
         int cols = arr[0].length;
 
