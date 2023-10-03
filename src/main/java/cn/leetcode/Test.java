@@ -1,19 +1,44 @@
 package cn.leetcode;
 
+import java.util.*;
+
 public class Test {
 
-    public int totalMoney(int n) {
-        int res = 0;
+    public List<List<String>> groupAnagrams(String[] strs) {
+        int len = strs.length;
+        String[] sortedStringArr = new String[len];
 
-        int weekNum = n / 7;
-        int remains = n - 7 * weekNum;
+        for (int i = 0; i < len; i++) {
+            sortedStringArr[i] = sortString(strs[i]);
+        }
 
-        for (int week = 1; week <= weekNum; week++) {
-            res += (week + (week + 6)) * 7 / 2;
+        Map<String, List<Integer>> m = new HashMap<>();
+        for (int i = 0; i < len; i++) {
+            String s = sortedStringArr[i];
+            List<Integer> v = m.get(s);
+            if (v == null) {
+                m.put(s, new ArrayList<>(Collections.singletonList(i)));
+            } else {
+                v.add(i);
+            }
         }
-        for (int i = 0; i < remains; i++) {
-            res += weekNum + i + 1;
+
+        List<List<String>> res = new ArrayList<>();
+        for (Map.Entry<String, List<Integer>> mapEntry : m.entrySet()) {
+            res.add(mapEntry.getValue().stream().map(i -> strs[i]).toList());
         }
+
         return res;
+    }
+
+
+    public String sortString(String a) {
+        if ("".equals(a)) {
+            return a;
+        }
+
+        char[] charArr = a.toCharArray();
+        Arrays.sort(charArr);
+        return new String(charArr);
     }
 }
